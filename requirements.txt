@@ -3,3 +3,4 @@ piq
 kornia
 opencv-python
 jsonargparse[signatures]
+wandb
