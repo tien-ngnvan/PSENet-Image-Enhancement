@@ -16,6 +16,17 @@ Details of our framework and benchmark results can be found in [our paper](https
 ```
 **Please CITE** our paper when this repository is used to help produce published results or is incorporated into other software.
 
+## Gradio Demo
+```bash
+pip install -r requirements.txt
+cd source
+python gradio_demo.py
+```
+**Notes**: For adding support more images. Please download images and put them in source/samples. Then, make new images with default gradio, see [example](https://github.com/tien-ngnvan/PSENet-Image-Enhancement/blob/ef2a8d599c8cfc0f646c36ecbb076c5a8cd0f8c4/source/gradio_demo.py#L55)
+```python
+os.path.join(os.path.dirname(__file__), "samples/new_image.png"),
+```
+
 ## Installation
 1. Clone this repository
 ```bash
